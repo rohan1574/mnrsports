@@ -1,1296 +1,253 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="bn">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Expand Times - Productivity Apps</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" href="assets/images/favicon.png">
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
-    <link rel="shortcut icon" href="assets/images/logo-footer.png">
-    <!-- Google Font (font-family: 'Roboto', sans-serif;) -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
-    <!-- Google Font ('Poppins', sans-serif;) -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/plugins.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNR Sports</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
+<body class="bg-slate-50 text-slate-800">
 
-<body>
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-2xl font-bold text-blue-600">MNR Sports</a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#home" class="text-slate-600 hover:text-blue-600 font-medium">Home</a>
+                    <a href="#about" class="text-slate-600 hover:text-blue-600 font-medium">About</a>
+                    <a href="#products" class="text-slate-600 hover:text-blue-600 font-medium">Products</a>
+                    <a href="#team" class="text-slate-600 hover:text-blue-600 font-medium">Team</a>
+                    <a href="#technology" class="text-slate-600 hover:text-blue-600 font-medium">Technology</a>
+                    <a href="#blog" class="text-slate-600 hover:text-blue-600 font-medium">Blog</a>
+                    <a href="#careers" class="text-slate-600 hover:text-blue-600 font-medium">Careers</a>
+                    <a href="#contact" class="text-slate-600 hover:text-blue-600 font-medium">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Preloader -->
-    <div class="tm-preloader">
-        <span class="tm-preloader-box"></span>
-        <button class="tm-button tm-button-sm tm-button-white"><span>Cancel Loader</span></button>
-    </div>
-    <!--// Preloader -->
+    <!-- Home Section -->
+    <section id="home" class="pt-32 pb-20 bg-gradient-to-b from-blue-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tight mb-6">
+                Welcome to <span class="text-blue-600">MNR Sports</span>
+            </h1>
+            <p class="mt-4 text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto">
+                Founded by a passionate team of builders.
+            </p>
+            <p class="mt-4 text-lg text-slate-500 max-w-2xl mx-auto">
+                We are dedicated to creating innovative sports applications and solutions that empower athletes and sports enthusiasts worldwide.
+            </p>
+            <div class="mt-10">
+                <a href="#products" class="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition shadow-lg hover:shadow-xl">
+                    Explore Our Apps
+                </a>
+            </div>
+        </div>
+    </section>
 
-    <!-- Wrapper -->
-    <div id="wrapper" class="wrapper">
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">About Us</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4 rounded"></div>
+            </div>
+            <div class="max-w-3xl mx-auto text-center text-lg text-slate-600 leading-relaxed">
+                <p>
+                    MNR Sports is a forward-thinking technology company focused on the sports industry. We believe in the power of technology to transform how people engage with sports, whether it's tracking performance, managing teams, or staying connected with the sports community.
+                </p>
+            </div>
+        </div>
+    </section>
 
-        <!-- Header Area -->
-        <div class="tm-header tm-header-fixed tm-sticky-header">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-9 col-9">
-                        <a class="tm-header-logo" href="index.html">
-                            <img src="assets/images/logo-white.png" alt="Expand Times logo">
+    <!-- Products Section (Dynamic) -->
+    <section id="products" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Our Products</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4 rounded"></div>
+                <p class="mt-4 text-slate-600">Discover our suite of sports applications designed for excellence.</p>
+            </div>
+            
+            <!-- Products Grid: Easily add more cards here in the future -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Product Card 1 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md transition group">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center relative overflow-hidden">
+                        <!-- Placeholder for App Image -->
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-500 to-indigo-600 opacity-90 group-hover:scale-105 transition duration-500"></div>
+                        <span class="relative text-white font-bold text-2xl z-10">MNR Score Tracker</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">MNR Score Tracker</h3>
+                        <p class="text-slate-600 mb-4 text-sm leading-relaxed">
+                            A comprehensive application for tracking live scores, managing tournaments, and analyzing player statistics in real-time.
+                        </p>
+                        <a href="#" class="text-blue-600 font-semibold hover:text-blue-800 flex items-center">
+                            Learn more 
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                         </a>
                     </div>
-                    <div class="col-lg-9 col-md-3 col-3">
-                        <nav class="tm-navigation tm-header-navigation">
-                            <ul>
-                                <li class="current"><a href="#tm-area-heroslider">Home</a></li>
-                                <li><a href="#tm-area-features">Objectives</a></li>
-                                <li><a href="#tm-area-screenshots">Projects</a></li>
-                                <li><a href="#tm-area-blog">Blog</a>
-                                <li><a href="#tm-area-contact">Contact</a></li>
-                                <li><a href="privacy-policy.html">Privacy Policy</a>
-                            </ul>
-                        </nav>
-                    </div>
                 </div>
-                <div class="tm-mobilenav"></div>
+
+                <!-- Future Product Card Placeholder (Hidden for now, shown as an example of extensibility) -->
+                <!--
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md transition group">
+                    ...
+                </div>
+                -->
+
             </div>
         </div>
-        <!--// Header Area -->
+    </section>
 
-        <!-- Heroslider Area -->
-       <div id="tm-area-heroslider" class="tm-heroslider">
-            <div class="tm-heroslider-inner">
-                <img src="assets/images/heroslider-overlay-shape.png" alt="heroslider ovelay" class="tm-heroslider-ovelayshape">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-8 col-lg-7 order-2 order-lg-1">
-                           <div class="">
-    <h1 style="font-size: 56px;font-weight: 800;color: #fff;">Introducing..</h1> 
-    <br>
-    <h2 style="font-size: 28px; font-weight: 500; color: #fff;"> ControlPlus | MinimalLife | ProDaily</h2>
-    <p style="font-size: 18px; line-height: 2;font-weight: 400;color: #fff;padding-right: 100px;">
-        Take back control of your time. Our apps are developed specially to rescue you from digital distraction 
-        and screen addiction to expand your productivity time.
-    </p>
-    <div class="tm-buttongroup">
-        <a href="https://play.google.com/store/apps/developer?id=Expand+Times+IT" class="tm-button tm-button-lg tm-button-white tm-button-transparent">
-            <i class="zmdi zmdi-android"></i>
-            <span>Google Play</span>
-        </a>
-        <a href="https://play.google.com/store/apps/developer?id=Expand+Times+IT" class="tm-button tm-button-lg tm-button-white tm-button-transparent">
-            <i class="zmdi zmdi-apple"></i>
-            <span>App Store</span>
-        </a>
-    </div>
-    <a href="#tm-area-features" class="tm-heroslider-scrolldown">
-        <i class="zmdi zmdi-square-down"></i>
-    </a>
-</div>
+    <!-- Team Section -->
+    <section id="team" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Meet the Team</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4 rounded"></div>
+                <p class="mt-4 text-slate-600 max-w-2xl mx-auto">The passionate builders behind MNR Sports.</p>
+            </div>
 
-                        </div>
-                        <div class="col-xl-4 col-lg-5 order-1 order-lg-2">
-                            <div class="tm-heroslider-mobileshow">
-                                <img src="assets/images/HeroImage-1.png" alt="ExpandTimes mobile">
-                                <div class="tm-heroslider-mobileshowanim">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                            </div>
-                        </div>
+            <div class="flex flex-wrap justify-center gap-12">
+                <!-- Rony -->
+                <div class="text-center w-64">
+                    <div class="relative w-48 h-48 mx-auto mb-6">
+                        <img src="img/rony.jpg" alt="Rony" class="rounded-full w-full h-full object-cover shadow-lg border-4 border-white" onerror="this.src='https://ui-avatars.com/api/?name=Rony&background=0D8ABC&color=fff&size=200'">
+                        <div class="absolute inset-0 rounded-full shadow-inner"></div>
                     </div>
+                    <h3 class="text-2xl font-bold text-slate-900">Rony</h3>
+                    <p class="text-blue-600 font-medium mt-1">Lead Developer</p>
+                    <p class="text-slate-500 mt-3 text-sm">Architecting robust and scalable sports applications with cutting-edge technologies.</p>
+                </div>
+
+                <!-- Naimul -->
+                <div class="text-center w-64">
+                    <div class="relative w-48 h-48 mx-auto mb-6">
+                        <img src="img/namul.jpg" alt="Naimul" class="rounded-full w-full h-full object-cover shadow-lg border-4 border-white" onerror="this.src='https://ui-avatars.com/api/?name=Naimul&background=0D8ABC&color=fff&size=200'">
+                        <div class="absolute inset-0 rounded-full shadow-inner"></div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900">Naimul</h3>
+                    <p class="text-blue-600 font-medium mt-1">Marketing Lead</p>
+                    <p class="text-slate-500 mt-3 text-sm">Driving growth, brand awareness, and connecting our products with sports lovers everywhere.</p>
                 </div>
             </div>
         </div>
-        <!--// Heroslider Area -->
+    </section>
 
-        <!-- Page Content -->
-        <main class="page-content">
-
-            <!-- Features Area -->
-            <!-- <div id="tm-area-features" class="tm-features-area tm-section tm-padding-section bg-white">
-                <div class="container">
-                    <div class="row justify-content-center mt-30-reverse"> -->
-
-                        <!-- Single Features -->
-                        <!-- <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-feature">
-                                <span class="tm-feature-icon">
-                                    <i class="flaticon-keyword"></i>
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        width="70px" height="72px">
-                                        <path fill-rule="evenodd" d="M52.556,54.307 C64.348,37.302 73.747,12.982 68.512,4.877 C60.795,-7.064 13.848,4.659 2.850,20.520 C2.466,21.074 2.124,21.636 1.831,22.199 C-6.854,38.889 17.104,75.968 33.774,71.638 C39.513,70.148 46.364,63.237 52.556,54.307 " />
-                                    </svg>
-                                </span>
-                                <div class="tm-feature-content">
-                                   <h4>Multi-platform</h4>
-                                    <p>Our productivity applications are developed for Android, iOS, Mac, Windows, and Web to cover all the devices our users use</p>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!--// Single Features -->
-
-                        <!-- Single Features -->
-                        <!-- <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-feature">
-                                <span class="tm-feature-icon">
-                                    <i class="flaticon-document"></i>
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        width="70px" height="72px">
-                                        <path fill-rule="evenodd" d="M52.556,54.307 C64.348,37.302 73.747,12.982 68.512,4.877 C60.795,-7.064 13.848,4.659 2.850,20.520 C2.466,21.074 2.124,21.636 1.831,22.199 C-6.854,38.889 17.104,75.968 33.774,71.638 C39.513,70.148 46.364,63.237 52.556,54.307 " />
-                                    </svg>
-                                </span>
-                                <div class="tm-feature-content">
-                                    <h4>Smooth UI</h4>
-                                    <p>Expand Times-  user interface designer specialist in eye-friendly, clean, and comfortable UI design. You’ll have a smooth feeling while using our apps.</p>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!--// Single Features -->
-
-                        <!-- Single Features -->
-                        <!-- <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-feature">
-                                <span class="tm-feature-icon">
-                                    <i class="flaticon-cover"></i>
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        width="70px" height="72px">
-                                        <path fill-rule="evenodd" d="M52.556,54.307 C64.348,37.302 73.747,12.982 68.512,4.877 C60.795,-7.064 13.848,4.659 2.850,20.520 C2.466,21.074 2.124,21.636 1.831,22.199 C-6.854,38.889 17.104,75.968 33.774,71.638 C39.513,70.148 46.364,63.237 52.556,54.307 " />
-                                    </svg>
-                                </span>
-                                <div class="tm-feature-content">
-                                    <h4>Data Sync</h4>
-                                    <p>Expand Times keeps your usage data synchronized on any device you log in on, but we are very concerned about your privacy.</p>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!--// Single Features -->
-
-                    <!-- </div>
-                </div>
-            </div> -->
-            <!--// Features Area -->
-
-            <!-- About Us Area -->
-            <div id="tm-area-about" class="tm-about-area tm-section tm-padding-section bg-grey">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="tm-sectiontitle text-center">
-                                <h2>About ExpandTimes</h2>
-                                <span class="tm-sectiontitle-divider"><i class="zmdi zmdi-fullscreen"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="tm-about-image">
-                                <img class="tm-about-mobilethumb" src="assets/images/about-mobile.png" alt="about mobile">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="tm-about-content">
-                               <h6>ExpandTimes Develops Cross-Platform Applications</h6>
-                                <p> But, We prefer to introduce ExpandTimes as a movement that helps people have healthy relationships with their devices. 
-                                    In a world of digital distractions, we're working to help people overcome screen addiction and live more mindful, purposeful and productive lives.</p>
-                                <ul class="stylish-list">
-                                    <li><i class="zmdi zmdi-check"></i>Productivity application for Android, iOS, Windows, Mac, and Web</li>
-                                    <li><i class="zmdi zmdi-check"></i>Productivity and Time management Awareness programme</li>
-                                    <li><i class="zmdi zmdi-check"></i>ExpandTimes Career guide and Business solutions</li>
-                                    <li><i class="zmdi zmdi-check"></i>Social work and Charity programme</li>                        
-                                </ul>
-                                <a href="#" class="tm-button"><span>Read More</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- Technology Section -->
+    <section id="technology" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold">Our Technology Stack</h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto mt-4 rounded"></div>
             </div>
-            <!--// About Us Area -->
-
-            <!-- Services Area -->
-            <div id="tm-area-services" class="tm-services-area tm-section tm-padding-section bg-white">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="tm-sectiontitle text-center">
-                                <h2>MinimalLife Features</h2>
-                                <span class="tm-sectiontitle-divider"><i class="zmdi zmdi-fullscreen"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="row mt-40-reverse">
-
-                                <!-- Single Features -->
-                                <div class="col-lg-12 col-md-6 col-12 mt-40">
-                                    <div class="tm-service">
-                                        <span class="tm-service-icon">
-                                            <i class="flaticon-friendship"></i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                width="70px" height="72px">
-                                                <path fill-rule="evenodd" d="M52.556,54.307 C64.348,37.302 73.747,12.982 68.512,4.877 C60.795,-7.064 13.848,4.659 2.850,20.520 C2.466,21.074 2.124,21.636 1.831,22.199 C-6.854,38.889 17.104,75.968 33.774,71.638 C39.513,70.148 46.364,63.237 52.556,54.307 " />
-                                            </svg>
-                                        </span>
-                                        <div class="tm-service-content">
-                                            <h4>Custom Block List</h4>
-                                            <p>Block distracting apps, Games, websites, and social media platforms during set periods.
-                                             </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--// Single Features -->
-
-                                <!-- Single Features -->
-                                <div class="col-lg-12 col-md-6 col-12 mt-40">
-                                    <div class="tm-service">
-                                        <span class="tm-service-icon">
-                                            <i class="flaticon-support"></i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                width="70px" height="72px">
-                                                <path fill-rule="evenodd" d="M52.556,54.307 C64.348,37.302 73.747,12.982 68.512,4.877 C60.795,-7.064 13.848,4.659 2.850,20.520 C2.466,21.074 2.124,21.636 1.831,22.199 C-6.854,38.889 17.104,75.968 33.774,71.638 C39.513,70.148 46.364,63.237 52.556,54.307 " />
-                                            </svg>
-                                        </span>
-                                        <div class="tm-service-content">
-                                            <h4>Smart Notifications</h4>
-                                            <p>Receive reminders and important only notifications to help users stay on track.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--// Single Features -->
-
-                                <!-- Single Features -->
-                                <div class="col-lg-12 col-md-6 col-12 mt-40">
-                                    <div class="tm-service">
-                                        <span class="tm-service-icon">
-                                            <i class="flaticon-team"></i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                width="70px" height="72px">
-                                                <path fill-rule="evenodd" d="M52.556,54.307 C64.348,37.302 73.747,12.982 68.512,4.877 C60.795,-7.064 13.848,4.659 2.850,20.520 C2.466,21.074 2.124,21.636 1.831,22.199 C-6.854,38.889 17.104,75.968 33.774,71.638 C39.513,70.148 46.364,63.237 52.556,54.307 " />
-                                            </svg>
-                                        </span>
-                                        <div class="tm-service-content">
-                                            <h4>Analytics</h4>
-                                            <p> Get insights into time spent on additive apps and productive improvement and take proper action.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--// Single Features -->
-
-                                <!-- Single Features -->
-                                <div class="col-lg-12 col-md-6 col-12 mt-40">
-                                    <div class="tm-service">
-                                        <span class="tm-service-icon">
-                                            <i class="flaticon-hourglass"></i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                width="70px" height="72px">
-                                                <path fill-rule="evenodd" d="M52.556,54.307 C64.348,37.302 73.747,12.982 68.512,4.877 C60.795,-7.064 13.848,4.659 2.850,20.520 C2.466,21.074 2.124,21.636 1.831,22.199 C-6.854,38.889 17.104,75.968 33.774,71.638 C39.513,70.148 46.364,63.237 52.556,54.307 " />
-                                            </svg>
-                                        </span>
-                                        <div class="tm-service-content">
-                                            <h4>Minimal Launcher</h4>
-                                            <p>Non attractive theme, no app icon, and neutral color scheme as a launcher for the phone.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--// Single Features -->
-
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="tm-service-image">
-                                <div class="tm-service-image-1 is-visible">
-                                    <img src="assets/images/service-image-1.png" alt="ExpandTimes mobile">
-                                </div>
-                                <div class="tm-service-image-2">
-                                    <img src="assets/images/service-image-2.png" alt="ExpandTimes mobile">
-                                </div>
-                                <div class="tm-service-mobileshowanim">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center opacity-80">
+                <div class="p-4 bg-slate-800 rounded-xl">
+                    <p class="font-bold text-xl">React Native</p>
+                    <p class="text-sm text-slate-400 mt-2">Mobile Apps</p>
                 </div>
-            </div>
-           <!-- Services Area -->
-
-            <!-- Video & Funfact Area -->
-            <div id="tm-area-video" class="tm-video-funfact-area tm-section tm-padding-section bg-grey">
-                <div class="tm-video-funfact-bgshape">
-                    <img src="assets/images/funfact-bg-shape.png" alt="bg shape">
+                <div class="p-4 bg-slate-800 rounded-xl">
+                    <p class="font-bold text-xl">Next.js</p>
+                    <p class="text-sm text-slate-400 mt-2">Web Platform</p>
                 </div>
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="tm-videobox tm-videobox-circle tm-funfact-videobox">
-                                <img src="assets/images/video-thumb-image-1.jpg" alt="ExpandTimes video image">
-                                <a href="https://www.youtube.com/watch?v=LHHvv2Wk9DQ" data-fancybox="video"><i class="flaticon-play-button"></i></a>
-                                <span class="tm-videobox-roundicon"></span>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="row tm-funfact-wrapper">
-
-                                <!-- Single Funfact -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-12 tm-funfact-masonryitem">
-                                    <div class="tm-funfact text-center">
-                                        <span class="tm-funfact-icon">
-                                            <i class="flaticon-inbox"></i>
-                                        </span>
-                                        <div class="tm-funfact-content">
-                                            <span class="tm-funfact-number"><span class="odometer" data-count-to="100"></span>K+</span>
-                                            <h4>App Download</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--// Single Funfact -->
-
-                                <!-- Single Funfact -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-12 tm-funfact-masonryitem">
-                                    <div class="tm-funfact text-center">
-                                        <span class="tm-funfact-icon">
-                                            <i class="flaticon-goal"></i>
-                                        </span>
-                                        <div class="tm-funfact-content">
-                                            <span class="tm-funfact-number"><span class="odometer" data-count-to="1000"></span>K+</span>
-                                            <h4>Total Achivement</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--// Single Funfact -->
-
-                                <!-- Single Funfact -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-12 tm-funfact-masonryitem">
-                                    <div class="tm-funfact text-center">
-                                        <span class="tm-funfact-icon">
-                                            <i class="flaticon-team-1"></i>
-                                        </span>
-                                        <div class="tm-funfact-content">
-                                            <span class="tm-funfact-number"><span class="odometer" data-count-to="50"></span>K+</span>
-                                            <h4>Daily Visitors</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--// Single Funfact -->
-
-                                <!-- Single Funfact -->
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-12 tm-funfact-masonryitem">
-                                    <div class="tm-funfact text-center">
-                                        <span class="tm-funfact-icon">
-                                            <i class="flaticon-review"></i>
-                                        </span>
-                                        <div class="tm-funfact-content">
-                                            <span class="tm-funfact-number"><span class="odometer" data-count-to="10"></span>K+</span>
-                                            <h4>Positive Reviews</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--// Single Funfact -->
-
-                            </div>
-                        </div>
-                    </div>
+                <div class="p-4 bg-slate-800 rounded-xl">
+                    <p class="font-bold text-xl">Node.js</p>
+                    <p class="text-sm text-slate-400 mt-2">Backend API</p>
                 </div>
-            </div>
-            <!--// Video & Funfact Area -->
-
-            <!-- Screenshot Slideshow Area -->
-            <div id="tm-area-screenshots" class="tm-screenshot-area tm-section tm-padding-section bg-white">
-                <div class="tm-screenshots-bgshape">
-                    <img src="assets/images/screenshot-background-shape.png" alt="screenshot background shape">
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="tm-sectiontitle text-center">
-                                <h2>Currently Working on</h2>
-                                <span class="tm-sectiontitle-divider"><i class="zmdi zmdi-fullscreen"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="tm-screenshots">
-                                <div class="tm-screenshots-slider tm-slider-arrow">
-                                    <div class="tm-screenshots-single">
-                                        <img src="assets/images/screenshot-1.jpg" alt="ExpandTimes screenshot">
-                                    </div>
-                                    <div class="tm-screenshots-single">
-                                        <img src="assets/images/screenshot-2.jpg" alt="ExpandTimes screenshot">
-                                    </div>
-                                    <div class="tm-screenshots-single">
-                                        <img src="assets/images/screenshot-3.jpg" alt="ExpandTimes screenshot">
-                                    </div>
-                                    <div class="tm-screenshots-single">
-                                        <img src="assets/images/screenshot-4.jpg" alt="ExpandTimes screenshot">
-                                    </div>
-                                    <div class="tm-screenshots-single">
-                                        <img src="assets/images/screenshot-5.jpg" alt="ExpandTimes screenshot">
-                                    </div>
-                                    <div class="tm-screenshots-single">
-                                        <img src="assets/images/screenshot-1.jpg" alt="ExpandTimes screenshot">
-                                    </div>
-                                    <div class="tm-screenshots-single">
-                                        <img src="assets/images/screenshot-2.jpg" alt="ExpandTimes screenshot">
-                                    </div>
-                                    <div class="tm-screenshots-single">
-                                        <img src="assets/images/screenshot-3.jpg" alt="ExpandTimes screenshot">
-                                    </div>
-                                    <div class="tm-screenshots-single">
-                                        <img src="assets/images/screenshot-4.jpg" alt="ExpandTimes screenshot">
-                                    </div>
-                                    <div class="tm-screenshots-single">
-                                        <img src="assets/images/screenshot-5.jpg" alt="ExpandTimes screenshot">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Screenshot Slideshow Area -->
-
-            <!-- Team Member Area -->
-            <div id="tm-area-team" class="tm-team-area tm-section tm-padding-section bg-grey">
-                <div class="tm-team-areabgshape">
-                    <img src="assets/images/team-area-bgshape.png" alt="ExpandTimes bg shape">
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="tm-sectiontitle text-center">
-                                <h2>Meet The Team</h2>
-                                <span class="tm-sectiontitle-divider"><i class="zmdi zmdi-fullscreen"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                   <div class="row tm-team-slider tm-slider-arrow">
-
-    <!-- Team Member 1 -->
-    <div class="col-lg-4 col-md-6 col-12">
-        <div class="tm-team text-center">
-            <div class="tm-team-top">
-                <div class="tm-team-image">
-                    <div class="tm-team-imageinner">
-                        <img src="assets/images/team-member-1.jpg" alt="ExpandTimes team member">
-                    </div>
-                </div>
-                <button class="tm-team-socialtrigger"><i class="zmdi zmdi-share"></i></button>
-                <ul class="tm-team-socialicons">
-                    <li><a href="https://www.facebook.com/expandtimes"><i class="zmdi zmdi-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/expandtimes"><i class="zmdi zmdi-twitter"></i></a></li>
-                    <li><a href="https://youtube.com/@expandtimes"><i class="zmdi zmdi-youtube"></i></a></li>
-                    <li><a href="https://www.tiktok.com/@expandtimes"><i class="zmdi zmdi-tiktok"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/105084432"><i class="zmdi zmdi-linkedin"></i></a></li>
-                </ul>
-            </div>
-            <div class="tm-team-content">
-                <h6>Co-Founder and CEO</h6>
-                <h4>Alamgir Hossen</h4>
-            </div>
-        </div>
-    </div>
-  
-    <!-- Team Member 2 -->
-    <div class="col-lg-4 col-md-6 col-12">
-        <div class="tm-team text-center">
-            <div class="tm-team-top">
-                <div class="tm-team-image">
-                    <div class="tm-team-imageinner">
-                        <img src="assets/images/team-member-2.jpg" alt="ExpandTimes team member">
-                    </div>
-                </div>
-                <button class="tm-team-socialtrigger"><i class="zmdi zmdi-share"></i></button>
-                <ul class="tm-team-socialicons">
-                    <li><a href="https://www.facebook.com/expandtimes"><i class="zmdi zmdi-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/expandtimes"><i class="zmdi zmdi-twitter"></i></a></li>
-                    <li><a href="https://youtube.com/@expandtimes"><i class="zmdi zmdi-youtube"></i></a></li>
-                    <li><a href="https://www.tiktok.com/@expandtimes"><i class="zmdi zmdi-tiktok"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/105084432"><i class="zmdi zmdi-linkedin"></i></a></li>
-                </ul>
-            </div>
-            <div class="tm-team-content">
-                <h6>Lead Developer</h6>
-                <h4>Zakir Hossen Sujon</h4>
-            </div>
-        </div>
-    </div>
-
-    <!-- Team Member 3 -->
-    <div class="col-lg-4 col-md-6 col-12">
-        <div class="tm-team text-center">
-            <div class="tm-team-top">
-                <div class="tm-team-image">
-                    <div class="tm-team-imageinner">
-                        <img src="assets/images/team-member-3.jpg" alt="ExpandTimes team member">
-                    </div>
-                </div>
-                <button class="tm-team-socialtrigger"><i class="zmdi zmdi-share"></i></button>
-                <ul class="tm-team-socialicons">
-                    <li><a href="https://www.facebook.com/expandtimes"><i class="zmdi zmdi-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/expandtimes"><i class="zmdi zmdi-twitter"></i></a></li>
-                    <li><a href="https://youtube.com/@expandtimes"><i class="zmdi zmdi-youtube"></i></a></li>
-                    <li><a href="https://www.tiktok.com/@expandtimes"><i class="zmdi zmdi-tiktok"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/105084432"><i class="zmdi zmdi-linkedin"></i></a></li>
-                </ul>
-            </div>
-            <div class="tm-team-content">
-                <h6>Frontend App Developer</h6>
-                <h4>Rony Hossen</h4>
-            </div>
-        </div>
-    </div>
-
-</div>
-    </div>
-
-</div>
-   
-            <!--// Team Member Area -->
-
-            <!-- Testimonial Area -->
-            <div id="tm-area-testimonial" class="tm-testimonial-area tm-section tm-padding-section bg-white">
-                <div class="tm-testimonial-bgshape">
-                    <img src="assets/images/testimonial-bg-shape.png" alt="ExpandTimes bg shape">
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="tm-sectiontitle text-center">
-                                <h2>Our User Says</h2>
-                                <span class="tm-sectiontitle-divider"><i class="zmdi zmdi-fullscreen"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8 col-md-10">
-
-                            <div class="tm-testimonial-authors">
-                                <div class="tm-testimonial-author">
-                                    <div class="tm-testimonial-authorinner">
-                                        <img src="assets/images/author-image-1.jpg" alt="ExpandTimes author image">
-                                    </div>
-                                </div>
-                                <div class="tm-testimonial-author">
-                                    <div class="tm-testimonial-authorinner">
-                                        <img src="assets/images/author-image-2.jpg" alt="ExpandTimes author image">
-                                    </div>
-                                </div>
-                                <div class="tm-testimonial-author">
-                                    <div class="tm-testimonial-authorinner">
-                                        <img src="assets/images/author-image-3.jpg" alt="ExpandTimes author image">
-                                    </div>
-                                </div>
-                                <div class="tm-testimonial-author">
-                                    <div class="tm-testimonial-authorinner">
-                                        <img src="assets/images/author-image-4.jpg" alt="ExpandTimes author image">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tm-testimonial-contents tm-slider-arrow">
-                                <div class="tm-testimonial-content">
-                                    <p>"ExpandTimes has completely transformed how I manage my workday. The app helps me stay focused and avoid distractions, 
-                                        boosting my productivity like never before. Highly recommended for professionals!" </p>
-                                    <i class="zmdi zmdi-quote"></i>
-                                    <h4>Emily S</h4>
-                                    <h6>Marketing Manager</h6>
-                                </div>
-                                <div class="tm-testimonial-content">
-                                    <p>"I used to waste hours scrolling through social media, but ExpandTimes has helped me set limits and stay on track. 
-                                        Now, I spend more time studying and achieving my goals. This app is a lifesaver for students!"</p>
-                                    <i class="zmdi zmdi-quote"></i>
-                                    <h4> Ryan T</h4>
-                                    <h6>University Student</h6>
-                                </div>
-                                <div class="tm-testimonial-content">
-                                    <p>"As a parent, I was concerned about my screen time setting a bad example for my kids. ExpandTimes helped me cut down on unnecessary phone use and focus on family time. 
-                                        It's been a game-changer for our household!" </p>
-                                    <i class="zmdi zmdi-quote"></i>
-                                    <h4>Lisa M</h4>
-                                    <h6>Mom of Two</h6>
-                                </div>
-                                <div class="tm-testimonial-content">
-                                    <p>"Being a freelancer, staying disciplined can be hard, but ExpandTimes keeps me on schedule. The insights and reminders are incredibly motivating.
-                                        I feel more in control of my time now!"</p>
-                                    <i class="zmdi zmdi-quote"></i>
-                                    <h4>David K</h4>
-                                    <h6>Freelance Designer</h6>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Testimonial Area -->
-
-            <!--  Not Required now Pricing Area 
-            
-            <div id="tm-area-pricing" class="tm-pricebox-area tm-section tm-padding-section bg-grey">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="tm-sectiontitle text-center">
-                                <h2>Pricing Plans</h2>
-                                <span class="tm-sectiontitle-divider"><i class="zmdi zmdi-fullscreen"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tm-pricebox-switcher text-center mb-3">
-                        <div class="tm-pricebox-switchbuttons">
-                            <button data-keyvalue="monthly">Monthly</button>
-                            <button class="is-active" data-keyvalue="yearly">Yearly</button>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-
-                        
-                        <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-pricebox text-center">
-                                <div class="tm-pricebox-header">
-                                    <h4>Basic</h4>
-                                </div>
-                                <div class="tm-pricebox-body">
-                                    <div class="tm-pricebox-price">
-                                        <h2>
-                                            <span class="tm-pricebox-price-unit">$</span>
-                                            <span class="tm-pricebox-price-digit" data-pricebox-price-monthly="0"
-                                                data-pricebox-price-yearly="0"></span>
-                                        </h2>
-                                        <span class="tm-pricebox-price-time" data-monthly-text="Per month"
-                                            data-yearly-text="Per year"></span>
-                                    </div>
-                                    <ul>
-                                        <li>Android Launcher</li>
-                                        <li>Smart App Control</li>
-                                        <li>Tracking and Report</li>
-                                        <li>Support</li>
-                                        <li class="disabled"> Sync Data</li>
-                                    </ul>
-                                </div>
-                                <div class="tm-pricebox-footer">
-                                    <a href="#" class="tm-button tm-button-sm tm-button-dark"><span>Purchase</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    
-
-                  
-                        <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-pricebox text-center is-active">
-                                <div class="tm-pricebox-header">
-                                    <h4>Standard</h4>
-                                </div>
-                                <div class="tm-pricebox-body">
-                                    <div class="tm-pricebox-price">
-                                        <h2>
-                                            <span class="tm-pricebox-price-unit">$</span>
-                                            <span class="tm-pricebox-price-digit" data-pricebox-price-monthly="3"
-                                                data-pricebox-price-yearly="30"></span>
-                                        </h2>
-                                        <span class="tm-pricebox-price-time" data-monthly-text="Per month"
-                                            data-yearly-text="Per year"></span>
-                                    </div>
-                                    <ul>
-                                        <li>Android Launcher</li>
-                                        <li>Smart App Control</li>
-                                        <li>Tracking and Report</li>
-                                         <li>Support</li>
-                                         <li>Sync Data</li>
-                                    </ul>
-                                </div>
-                                <div class="tm-pricebox-footer">
-                                    <a href="#" class="tm-button tm-button-sm tm-button-dark"><span>Purchase</span></a>
-                                </div>
-                            </div>
-                        </div>
-                      
-
-                    
-                        <div class="col-lg-4 col-md-6 col-12 mt-30">
-                            <div class="tm-pricebox text-center">
-                                <div class="tm-pricebox-header">
-                                    <h4>Premium</h4>
-                                </div>
-                                <div class="tm-pricebox-body">
-                                    <div class="tm-pricebox-price">
-                                        <h2>
-                                            <span class="tm-pricebox-price-unit">$</span>
-                                            <span class="tm-pricebox-price-digit" data-pricebox-price-monthly="5"
-                                                data-pricebox-price-yearly="50"></span>
-                                        </h2>
-                                        <span class="tm-pricebox-price-time" data-monthly-text="Per month"
-                                            data-yearly-text="Per year"></span>
-                                    </div>
-                                    <ul>
-                                        <li>Standard +</li>
-                                        <li>Change Color Scheme</li>
-                                        <li>Customization</li>
-                                        <li>Hide Privacy App</li>
-                                        <li>Premium Support</li>
-                                    </ul>
-                                </div>
-                                <div class="tm-pricebox-footer">
-                                    <a href="#" class="tm-button tm-button-sm tm-button-dark"><span>Purchase</span></a>
-                                </div>
-                            </div>
-                        </div>
-                      
-                    </div>
-                </div>
-            </div>
-                       
-            -->
-            
-            <!-- Frequently Ask Question -->
-            <div id="tm-area-faq" class="tm-faq-area tm-section tm-padding-section bg-white">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="tm-sectiontitle text-center">
-                                <h2>Frequently Asked Questions</h2>
-                                <span class="tm-sectiontitle-divider"><i class="zmdi zmdi-fullscreen"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-lg-5">
-                            <div class="tm-faq-image">
-                                <img src="assets/images/faq-image.png" alt="faq image">
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <!-- Accordion Wrapper -->
-                            <div id="tm-accordion1" class="tm-accordion">
-
-                                <div class="card">
-                                    <div class="card-header" id="tm-accordion1-heading1">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link" data-toggle="collapse" data-target="#tm-accordion1-collapse1"
-                                                aria-expanded="true" aria-controls="tm-accordion1-collapse1">
-                                                How can I download the app ?
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="tm-accordion1-collapse1" class="collapse show" aria-labelledby="tm-accordion1-heading1"
-                                        data-parent="#tm-accordion1">
-                                        <div class="card-body">
-                                            <p>You can download our Apps from Play Store, App Store and Expandtimes.com</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card">
-                                    <div class="card-header" id="tm-accordion1-heading2">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tm-accordion1-collapse2"
-                                                aria-expanded="false" aria-controls="tm-accordion1-collapse2">
-                                                How can I install the app ?
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="tm-accordion1-collapse2" class="collapse" aria-labelledby="tm-accordion1-heading2"
-                                        data-parent="#tm-accordion1">
-                                        <div class="card-body">
-                                            <p>It's very similar way; how you install other apps</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card">
-                                    <div class="card-header" id="tm-accordion1-heading3">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tm-accordion1-collapse3"
-                                                aria-expanded="false" aria-controls="tm-accordion1-collapse3">
-                                                How can I active all the features ?
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="tm-accordion1-collapse3" class="collapse" aria-labelledby="tm-accordion1-heading3"
-                                        data-parent="#tm-accordion1">
-                                        <div class="card-body">
-                                            <p>By getting our premium plan, You'll be able to get all the features.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card">
-                                    <div class="card-header" id="tm-accordion1-heading4">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tm-accordion1-collapse4"
-                                                aria-expanded="false" aria-controls="tm-accordion1-collapse4">
-                                                What platform should we target?
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="tm-accordion1-collapse4" class="collapse" aria-labelledby="tm-accordion1-heading4"
-                                        data-parent="#tm-accordion1">
-                                        <div class="card-body">
-                                            <p>Our app developed by keep in mind to protect our user from all the distractions from all devices</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card">
-                                    <div class="card-header" id="tm-accordion1-heading5">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tm-accordion1-collapse5"
-                                                aria-expanded="false" aria-controls="tm-accordion1-collapse5">
-                                                Do I have to buy the Mobile App?
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="tm-accordion1-collapse5" class="collapse" aria-labelledby="tm-accordion1-heading5"
-                                        data-parent="#tm-accordion1">
-                                        <div class="card-body">
-                                            <p>You can use our app completely free, Also welcome to get the premium version.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card">
-                                    <div class="card-header" id="tm-accordion1-heading6">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tm-accordion1-collapse6"
-                                                aria-expanded="false" aria-controls="tm-accordion1-collapse6">
-                                                How can I get more benefits?
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="tm-accordion1-collapse6" class="collapse" aria-labelledby="tm-accordion1-heading6"
-                                        data-parent="#tm-accordion1">
-                                        <div class="card-body">
-                                            <p>Read our blog, Use all our apps and follow our page</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!--// Accordion Wrapper -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Frequently Ask Question -->
-
-            <!-- Downlaod Area -->
-            <div id="tm-area-download" class="tm-downlaod-area tm-section tm-padding-section bg-gradient">
-                <div class="tm-download-bgshape">
-                    <img src="assets/images/download-bgshape.png" alt="bg shape">
-                </div>
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="tm-download-content">
-                                <img src="assets/images/logo-white.png" alt="ExpandTimes" width: 80%>
-                                <h4>Get The App</h4>
-                                <h3>It’s Free to Download for Everyone</h3>
-                                <div class="tm-buttongroup">
-                                    <a href="https://play.google.com/store/apps/developer?id=Expand+Times+IT" class="tm-button tm-button-lg tm-button-white"><i class="zmdi zmdi-android"></i><span>Google
-                                            Play</span></a>
-                                    <a href="https://play.google.com/store/apps/developer?id=Expand+Times+IT" class="tm-button tm-button-lg tm-button-white tm-button-transparent"><i
-                                            class="zmdi zmdi-apple"></i><span>IOS App Store</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="tm-download-graph text-center">
-                                <h5>Download Statics (Last 6 month)</h5>
-                                <canvas id="downloadgraph" height="185"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Downlaod Area -->
-
-            <!-- Subscribe Area -->
-            <div id="tm-area-subscribe" class="tm-subscribe-area tm-section tm-padding-section bg-white">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="tm-subscribe-image text-center">
-                                <img src="assets/images/subscribe-area-image.png" alt="subscribe image">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="tm-subscribe-content text-center">
-                                <h2>Subscribe Our Newsletter!</h2>
-                                <p>Subscribe our newsletter and get notifications to stay update</p>
-                                <form id="tm-mailchimp-form" class="tm-subscribe-form text-center">
-                                    <input id="mc-email" type="text" placeholder="Email address" required="required">
-                                    <button id="mc-submit" type="submit" class="tm-button"><span>Subscribe</span></button>
-                                </form>
-                                <!-- Mailchimp Alerts -->
-                                <div class="tm-mailchimp-alerts">
-                                    <div class="tm-mailchimp-submitting"></div>
-                                    <div class="mailchimp-success"></div>
-                                    <div class="tm-mailchimp-error"></div>
-                                </div>
-                                <!--// Mailchimp Alerts -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Subscribe Area -->
-
-            <!-- Blog Area -->
-            <div id="tm-area-blog" class="tm-blog-area tm-section tm-padding-section bg-grey">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="tm-sectiontitle text-center">
-                                <h2>Our Latest Blog</h2>
-                                <span class="tm-sectiontitle-divider"><i class="zmdi zmdi-fullscreen"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row tm-blog-slider tm-slider-arrow">
-
-                        <!-- Single Blog -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="tm-blog">
-                                <div class="tm-blog-topside">
-                                    <div class="tm-blog-image">
-                                        <img src="assets/images/blog/the-growing-concern-of-kids-screen-addiction.jpg" alt="ExpandTimes blog image">
-                                    </div>
-                                    <span class="tm-blog-date">September 16, 2024</span>
-                                </div>
-                                <div class="tm-blog-content">
-                                    <h4><a href="/blog/the-growing-concern-of-kids-screen-addiction.html">The Growing Concern of Kids Screen Addiction!</a></h4>
-                                    <p>In today’s digital age, screens have become an essential part of daily life. Whether it’s for learning, entertainment, or connecting with others, children are spending more time in front of screens than ever before.</p>
-                                    <a href="/blog/the-growing-concern-of-kids-screen-addiction.html" class="tm-button tm-button-sm tm-button-dark"><span>Read more</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Blog -->
-
-                        <!-- Single Blog -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="tm-blog">
-                                <div class="tm-blog-topside">
-                                    <div class="tm-blog-image">
-                                        <img src="assets/images/blog/why-time-management-is-the-key-to-a-fulfilling-life.jpg" alt="ExpandTimes blog image">
-                                    </div>
-                                    <span class="tm-blog-date">September 21, 2024</span>
-                                </div>
-                                <div class="tm-blog-content">
-                                    <h4><a href="/blog/why-time-management-is-the-key-to-a-fulfilling-life.html">Why Time Management Is the Key to a Fulfilling Life</a></h4>
-                                    <p>Time management is often heralded as a key to success, both professionally and personally. But why is it considered so crucial? The answer lies not just in accomplishing daily tasks or meeting deadlines.</p>
-                                    <a href="/blog/why-time-management-is-the-key-to-a-fulfilling-life.html" class="tm-button tm-button-sm tm-button-dark"><span>Read more</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Blog -->
-
-                        <!-- Single Blog -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="tm-blog">
-                                <div class="tm-blog-topside">
-                                    <div class="tm-blog-image">
-                                        <img src="assets/images/blog/how-a-digital-detox-can-boost-your-productivity.jpg" alt="ExpandTimes blog image">
-                                    </div>
-                                    <span class="tm-blog-date">November 12, 2019</span>
-                                </div>
-                                <div class="tm-blog-content">
-                                    <h4><a href="/blog/how-a-digital-detox-can-boost-your-productivity.html">How a Digital Detox Can Boost Your Productivity?</a></h4>
-                                    <p>In a world where digital devices are omnipresent, the idea of disconnecting might seem counterintuitive, especially when it comes to productivity. However, taking a break from digital stimulation can enhance your efficiency.</p>
-                                    <a href="/blog/how-a-digital-detox-can-boost-your-productivity.html" class="tm-button tm-button-sm tm-button-dark"><span>Read more</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Blog -->
-
-                        <!-- Single Blog -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="tm-blog">
-                                <div class="tm-blog-topside">
-                                    <div class="tm-blog-image">
-                                        <img src="assets/images/blog/how-digital-distractions-undermine-our-productivity.jpg" alt="ExpandTimes blog image">
-                                    </div>
-                                    <span class="tm-blog-date">November 20, 2019</span>
-                                </div>
-                                <div class="tm-blog-content">
-                                    <h4><a href="/blog/how-digital-distractions-undermine-our-productivity.html">How Digital Distractions Undermine Our Productivity?</a></h4>
-                                    <p>In an era where digital technology is intertwined with almost every aspect of our lives, the issue of digital distractions has become a major concern, particularly regarding focus and productivity.</p>
-                                    <a href="/blog/how-digital-distractions-undermine-our-productivity.html" class="tm-button tm-button-sm tm-button-dark"><span>Read more</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Blog -->
-
-                        <!-- Single Blog -->
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="tm-blog">
-                                <div class="tm-blog-topside">
-                                    <div class="tm-blog-image">
-                                        <img src="assets/images/blog/the-hidden-reality-of-smartphone-addiction.jpg" alt="ExpandTimes blog image">
-                                    </div>
-                                    <span class="tm-blog-date">December 11, 2019</span>
-                                </div>
-                                <div class="tm-blog-content">
-                                    <h4><a href="/blog/the-hidden-reality-of-smartphone-addiction.html">The Hidden Reality of Smartphone Addiction</a></h4>
-                                    <p>In today's hyper-connected world, smartphones have become indispensable tools for communication, work, and entertainment. However, for many people, what starts as a helpful device can quickly turn into an all-consuming obsession.</p>
-                                    <a href="/blog/the-hidden-reality-of-smartphone-addiction.html" class="tm-button tm-button-sm tm-button-dark"><span>Read more</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--// Single Blog -->
-
-                    </div>
-                </div>
-            </div>
-            <!--// Blog Area -->
-
-            <!-- Contact Area -->
-            <div id="tm-area-contact" class="tm-contact-area tm-section tm-padding-section bg-white">
-                <div class="tm-contact-bgshape">
-                    <img src="assets/images/bg-shape-contact.png" alt="contact shape">
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="tm-sectiontitle text-center">
-                            <h2>Get in Touch</h2>
-                            <span class="tm-sectiontitle-divider"><i class="zmdi zmdi-fullscreen"></i></span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <form id="tm-contactform" action="assets/php/mailer.php" method="post" class="tm-form tm-contact-form">
-                                <div class="tm-form-inner">
-                                    <div class="tm-form-field tm-form-fieldhalf">
-                                        <input type="text" name="name" placeholder="Full Name" required="required">
-                                        <span class="tm-form-animatedline"></span>
-                                    </div>
-                                    <div class="tm-form-field tm-form-fieldhalf">
-                                        <input type="email" name="email" placeholder="Email Address" required="required">
-                                        <span class="tm-form-animatedline"></span>
-                                    </div>
-                                    <div class="tm-form-field tm-form-fieldhalf">
-                                        <input type="text" name="subject" placeholder="Subject" required="required">
-                                        <span class="tm-form-animatedline"></span>
-                                    </div>
-                                    <div class="tm-form-field tm-form-fieldhalf">
-                                        <input name="phone" type="text" placeholder="Phone">
-                                        <span class="tm-form-animatedline"></span>
-                                    </div>
-                                    <div class="tm-form-field">
-                                        <textarea name="message" cols="30" rows="4" placeholder="Message"></textarea>
-                                        <span class="tm-form-animatedline"></span>
-                                    </div>
-                                    <div class="tm-form-field">
-                                        <button type="submit" class="tm-button"><span>Send Message</span></button>
-                                    </div>
-                                </div>
-                            </form>
-                            <p class="form-messages"></p>
-                        </div>
-                        <div class="col-lg-4">                            
-                            <div class="tm-contact-content">
-                                
-                                 <!---- Not Required now
-                                
-                                <div class="tm-contact-block">
-                                    <span class="tm-contact-block-icon">
-                                        <i class="zmdi zmdi-pin"></i>
-                                    </span>
-                                
-                                    <div class="tm-contact-block-content">
-                                        <h6>Mailing</h6>
-                                        <p>Talbaria, Alipur, Satkhira Sadar, Satkhira 9400, Bangladesh</p>
-                                    </div>
-                                </div>
-                                <div class="tm-contact-block">
-                                    <span class="tm-contact-block-icon">
-                                        <i class="zmdi zmdi-phone-in-talk"></i>
-                                    </span>
-                                    <div class="tm-contact-block-content">
-                                        <h6>Phone</h6>
-                                        <p><a href="tel:+8801641530293">(+088) - 01641 53 02 93</a></p>
-                                    </div>
-                                </div>
-
-                                -->
-                                
-                                <div class="tm-contact-block">
-                                    <span class="tm-contact-block-icon">
-                                        <i class="zmdi zmdi-email"></i>
-                                    </span>
-                                    <div class="tm-contact-block-content">
-                                        <h6>Email</h6>
-                                        <p><a href="mailto:info@expandtimes.com">info@expandtimes.com</a></p>                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Contact Area -->
-
-             <!---- Not Required now
-            
-            
-            <div class="google-map-area bg-white">
-                <div id="google-map" class="tm-google-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.3122969411993!2d89.002819775811!3d22.679415429045992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2790b52e6f4863c1%3A0x89e466f1e0875a37!2sExpandTimes!5e0!3m2!1sen!2sbd!4v1734955533172!5m2!1sen!2sbd" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-             -->
-            
-        </main>
-        <!--// Page Content -->
-
-        <!-- Footer Area -->
-        <div class="tm-footer bg-gradient">
-            <div class="tm-footer-bgshape">
-                <img src="assets/images/footer-bgshape.png" alt="footer background shape">
-            </div>
-            <div class="container">
-                <div class="tm-footer-toparea tm-padding-section">
-                    <div class="row widgets tm-footer-widgets">
-                        <div class="col-xl-5 col-lg-4 col-md-6 col-12">
-                            <div class="single-widget widget-info">
-                                <a href="index.html" class="widget-info-logo">
-                                    <img src="assets/images/logo-footer.png" alt="ExpandTimes logo">
-                                </a>
-                                <p>A cross-platform app development Firm</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-6 col-12">
-                            <div class="single-widget widget-quicklinks">
-                                <h5 class="widget-title">Services</h5>
-                                <ul>
-                                    <li><a href="/#tm-area-about">About</a></li>
-                                    <li><a href="#tm-area-blog">Blog</a></li>
-                                    <li><a href="#tm-area-faq">FAQs</a></li>
-                                    <li><a href="#tm-area-contact">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-6 col-12">
-                            <div class="single-widget widget-quicklinks">
-                                <h5 class="widget-title">Support</h5>
-                                <ul>
-                                    <li><a href="#tm-area-contact">Help center</a></li>
-                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                    <li><a href="terms-of-service.html">Terms of Service</a></li>
-                                    <li><a href="https://www.facebook.com/expandtimes">Forum</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                            <div class="single-widget widget-recentpost">
-                                <h5 class="widget-title">Recent Posts</h5>
-                                <ul>
-                                    <li>
-                                        <div class="widget-recentpost-content">
-                                            <h6><a href="blog/the-growing-concern-of-kids-screen-addiction.html">The Growing Concern of Kids Screen Addiction!</a></h6>
-                                            <span>October 01, 2024</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="widget-recentpost-content">
-                                            <h6><a href="blog/how-a-digital-detox-can-boost-your-productivity.html"> How a digital detox can boost your productivity</a></h6>
-                                            <span>October 02, 2024</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tm-footer-bottomarea">
-                    <div class="row align-items-center">
-                        <div class="col-md-7">
-                            <p class="tm-footer-copyright">Copyright 2025 <a href="#">Expand Times IT</a>. Designed by <a href="#">Expand Times Developers</a></p>
-                        </div>
-                        <div class="col-md-5">
-                            <ul class="tm-footer-social">
-                                <li>
-                                    <a href="https://www.facebook.com/expandtimes/">
-                                        <i class="zmdi zmdi-facebook"></i>
-                                        <i class="zmdi zmdi-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://youtube.com/@expandtimes">
-                                        <i class="zmdi zmdi-youtube"></i>
-                                        <i class="zmdi zmdi-youtube"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/company/105084432">
-                                        <i class="zmdi zmdi-linkedin"></i>
-                                        <i class="zmdi zmdi-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/expandtimes">
-                                        <i class="zmdi zmdi-twitter"></i>
-                                        <i class="zmdi zmdi-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.tiktok.com/@expandtimes">
-                                        <i class="zmdi zmdi-tiktok"></i>
-                                        <i class="zmdi zmdi-tiktok"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="p-4 bg-slate-800 rounded-xl">
+                    <p class="font-bold text-xl">Tailwind CSS</p>
+                    <p class="text-sm text-slate-400 mt-2">Styling</p>
                 </div>
             </div>
         </div>
-        <!--// Footer Area -->
+    </section>
 
-    </div>
-    <!--// Wrapper -->
+    <!-- Blog Section -->
+    <section id="blog" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Latest from the Blog</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4 rounded"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post Placeholder -->
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden p-6 border border-slate-100">
+                    <p class="text-sm text-blue-600 font-semibold mb-2">Development</p>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Building the Future of Sports Tech</h3>
+                    <p class="text-slate-600 text-sm mb-4">How our passionate team is leveraging modern technologies to build better experiences...</p>
+                    <a href="#" class="text-sm font-semibold text-slate-900 hover:text-blue-600">Read Article &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Js Files -->
-    <script src="assets/js/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/chart.min.js"></script>
-    <script src="assets/js/chartactive.js"></script>
-    <script src="assets/js/main.js"></script>
-    <!--// Js Files -->
+    <!-- Careers Section -->
+    <section id="careers" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6">Join Our Team</h2>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-10">We are always looking for talented builders to join our mission. Check out our open positions.</p>
+            <div class="inline-block bg-slate-50 border border-slate-200 rounded-xl p-8 max-w-lg w-full">
+                <p class="text-slate-500 italic">No open positions right now, but feel free to drop your resume!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-slate-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900">Get In Touch</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4 rounded"></div>
+            </div>
+            <form class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-2">Name</label>
+                        <input type="text" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-2">Email</label>
+                        <input type="email" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition" placeholder="john@example.com">
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-sm font-medium text-slate-700 mb-2">Message</label>
+                    <textarea rows="4" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition" placeholder="How can we help you?"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-blue-700 transition">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-2xl font-bold text-white mb-4">MNR Sports</h3>
+            <p class="mb-6">Founded by a passionate team of builders.</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="#" class="hover:text-white transition">Twitter</a>
+                <a href="#" class="hover:text-white transition">LinkedIn</a>
+                <a href="#" class="hover:text-white transition">GitHub</a>
+            </div>
+            <p>&copy; 2026 MNR Sports. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
